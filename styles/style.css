@@ -88,8 +88,7 @@ h3 {
 }
 
 h4 {
-    font-weight: 700;
-    font-size: 18px;
+
     padding: 25px 0 13px;
 }
 
@@ -121,6 +120,11 @@ h6 {
     justify-content: space-between;
     align-items: center;
 
+}
+
+.bold-font {
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .bg-black {
@@ -487,7 +491,7 @@ address {
     position: relative;
     color: rgba(120, 169, 98, 1);
     font-size: 10px;
-    padding: 7px 15px;
+    padding: 7px 20px 7px 0;
 
 
 
@@ -574,7 +578,7 @@ address {
     height: 400px;
 
 
-    padding: 0 25px 20px;
+    padding: 0 25px 40px;
     cursor: pointer;
 
 
@@ -838,12 +842,15 @@ strong {
 }
 
 .bg-img-one {
+
     background-image: url(./images/costum.png);
     background-repeat: no-repeat;
 
 
 
+
 }
+
 
 .bg-img-two {
     background-image: url(./images/laptops.png);
