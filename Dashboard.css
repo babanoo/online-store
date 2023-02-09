@@ -1,0 +1,126 @@
+h4 {
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 26px;
+
+}
+
+.flx {
+    display: flex;
+    align-items: flex-start;
+
+    gap: 81px;
+}
+
+.information a {
+    font-weight: 300;
+    font-size: 14px;
+    color: rgba(1, 86, 255, 1);
+}
+
+.information {
+    display: flex;
+    gap: 117px;
+}
+
+.information:last-of-type {
+    gap: 30px;
+}
+
+
+.Account-Dashboard {
+    width: 326px;
+
+    position: relative;
+    padding: 20px 17px;
+
+}
+
+.Account-Dashboard::before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 40px;
+    border-left: 3px solid var(--blue);
+    left: 0;
+    top: 15px;
+}
+
+
+.asides {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-bottom: 48px;
+}
+
+.dashboard {
+    font-weight: 600;
+    font-size: 15px;
+
+
+}
+
+.gray-p {
+    color: rgba(102, 102, 102, 1);
+    font-weight: 400;
+    font-size: 15px;
+    padding: 14px 0;
+}
+
+.bordr-gray {
+    border-bottom: 1px solid rgba(202, 205, 216, 1);
+    border-top: 1px solid rgba(202, 205, 216, 1)
+}
+
+.Compare-Products {
+    text-align: center;
+    padding: 20px 22px 21px;
+    height: 118px;
+}
+
+.compare {
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.items {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.info {
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid rgba(202, 205, 216, 1);
+    margin-bottom: 17px;
+
+    width: 988px;
+
+
+}
+
+
+
+
+.building {
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(102, 102, 102, 1);
+    max-width: 316px;
+    padding-bottom: 49px;
+}
+
+.info-p {
+    max-width: 228px;
+}
+
+.margn-left {
+    margin-left: 20px;
+}
+
+.contact-info {
+    padding-bottom: 54px;
+}

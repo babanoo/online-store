@@ -1,0 +1,50 @@
+h2 {
+    font-weight: 600;
+    font-size: 24px;
+    max-width: 866px;
+    padding: 0 0 35px;
+}
+
+.general-terms {
+    padding-bottom: 77px;
+}
+
+.artical-heading {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 19px 0;
+}
+
+.terms-p,
+.terms {
+    font-weight: 300;
+    font-size: 16px;
+    padding: 20px 0;
+    max-width: 1039px;
+
+}
+
+aside {
+    background-color: rgba(245, 247, 255, 1);
+    float: right;
+    padding: 25px 24px;
+
+
+
+}
+
+.aside-p {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.aside-list>a {
+    font-weight: 400;
+    font-size: 14px;
+
+
+}
+
+.aside-list {
+    padding-top: 15px;
+}

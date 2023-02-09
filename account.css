@@ -1,0 +1,37 @@
+.bg {
+    padding: 37px 60px 10px;
+    background: rgba(245, 247, 255, 1);
+    margin: 21px 0 58px;
+    height: 415.46087646484375px;
+    width: 564px;
+
+
+}
+
+.account-p {
+
+    padding: 20px 0;
+}
+
+.account-font {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.sign-in {
+    margin-top: 30px
+}
+
+.creat-bttn {
+
+    width: 208px;
+    height: 50px;
+    margin-top: 35px;
+}
+
+.blue-clr {
+    color: rgba(1, 86, 255, 1);
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 23px;
+}

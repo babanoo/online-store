@@ -1,0 +1,71 @@
+h1 {
+    font-weight: 600;
+    font-size: 32px;
+    padding-top: 19px;
+}
+
+h2 {
+
+    font-size: 44px;
+    font-weight: 500;
+    max-width: 465px;
+    text-align: left;
+
+
+
+}
+
+.blue-color {
+    color: rgba(1, 86, 255, 1);
+}
+
+.black-clr {
+    color: var(--black);
+    font-size: 12px;
+
+}
+
+.about-us {
+    padding: 21px 0;
+}
+
+.about-us-prgrph {
+    max-width: 436px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 37px;
+
+
+}
+
+.family-growing {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.delivery {
+    padding: 33px 0;
+
+}
+
+.quality-descktop {
+    padding: 42px 0 53px;
+}
+
+
+.services-cards {
+    background: rgba(245, 247, 255, 1);
+    padding: 61px 0 44px;
+}
+
+.highest-products {
+    padding: 137px 0;
+
+}
+
+.shop {
+    padding: 167px 0;
+
+
+
+}

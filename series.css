@@ -1,0 +1,53 @@
+.customs {
+    margin-bottom: 35px;
+}
+
+.stock-cards {
+    height: 410px;
+    width: 235px;
+    position: relative;
+    padding: 0px 25px 30px 25px;
+    margin: 0;
+
+
+}
+
+.cards {
+    height: 346px;
+}
+
+.cards:hover {
+    margin-bottom: 70px;
+}
+
+
+
+
+.stock-card-img {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+
+    visibility: hidden;
+
+
+
+
+}
+
+.card-info {
+    padding: 0px 0 10px 0;
+    margin: 0;
+}
+
+.hidden-btn {
+    visibility: hidden;
+    margin-bottom: 25px;
+
+}
+
+.serie-img-computer {
+    margin-left: 10px;
+}
