@@ -1,0 +1,49 @@
+.n-a {
+    margin-top: 23px;
+    font-weight: 400;
+    font-size: 14px;
+
+
+
+
+
+}
+
+.grid {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
+    align-items: start;
+    padding: 10px 140px 35px 15px;
+
+
+
+    height: 41px;
+    width: 401px;
+
+
+    background-color: var(--white);
+    border: 2px solid rgba(128, 128, 128, 0.359);
+
+
+}
+
+.Featured {
+    background: rgba(245, 247, 255, 1);
+    border-top: none;
+
+
+
+}
+
+.na-text {
+    color: rgba(102, 102, 102, 1);
+
+}
+
+.io {
+    border-top: none;
+    padding-bottom: 20px;
+}
