@@ -115,12 +115,20 @@ h6 {
     margin: 0 auto;
 }
 
+.flx-start {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 .flx-btwn {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
+
+
 
 .bold-font {
     font-weight: 700;
@@ -260,7 +268,7 @@ address {
 }
 
 .grow:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .call-us {
@@ -594,17 +602,6 @@ address {
 
 
 
-.flx-col-start {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 450px;
-
-}
-
-.margn-top {
-    margin-top: -120px;
-}
 
 
 
@@ -652,11 +649,6 @@ address {
 
 
 
-.Series_lists {
-    padding-bottom: 23px;
-
-
-}
 
 .align-slf {
     align-self: start;
@@ -804,18 +796,32 @@ strong {
     color: var(--black);
 }
 
+.series-list {
+    padding-bottom: 23px;
+}
+
+
+
+
 .flx-col {
     display: flex;
     flex-direction: column;
 
     align-items: center;
+    justify-content: flex-end;
     text-align: center;
+    padding-bottom: 31px;
     color: var(--white);
     gap: 90px;
+    height: 350px;
+    width: 232px;
 
-    height: 500PX;
-    width: 450px;
-    padding: 150px 0 32px;
+
+
+
+
+
+
 
 
 
@@ -832,6 +838,7 @@ strong {
 
 
 }
+
 
 
 
@@ -842,32 +849,33 @@ strong {
 }
 
 .bg-img-one {
-
-    background-image: url(./images/costum.png);
+    background-image: url(../images/custome-builds-1.png);
     background-repeat: no-repeat;
-
-
-
 
 }
 
-
 .bg-img-two {
-    background-image: url(./images/laptops.png);
+    background-image: url(../images/laptops.png);
     background-repeat: no-repeat;
+
 }
 
 .bg-img-three {
-    background-image: url(./images/descktop.png);
+    background-image: url(../images/descktop.png);
     background-repeat: no-repeat;
+
+
 }
 
 .bg-img-four {
-    background-image: url(./images/msi-bg.png);
+    background-image: url(../images/msi-bg.png);
     background-repeat: no-repeat;
 
 
+
+
 }
+
 
 .brands {
     display: flex;
@@ -875,6 +883,7 @@ strong {
     height: 79px;
     padding-bottom: 50px;
     padding-top: 10px;
+    margin-top: 66px;
 }
 
 .bg-hovr {
