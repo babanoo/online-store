@@ -230,6 +230,8 @@ p {
 
 
 
+
+
 .select {
     border: 2px solid rgba(202, 205, 216, 1);
     width: 180px;
@@ -526,7 +528,7 @@ input[type="radio"]:checked {
     width: 100%;
     height: 90px;
     background-repeat: no-repeat;
-    background-image: url(./images/X.png);
+    background-image: url(../images/X.png);
     background-position: left top;
     left: 90%;
 
