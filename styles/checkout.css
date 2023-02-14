@@ -204,16 +204,6 @@ strong {
     font-size: 14px;
 }
 
-.radio-flx {
-    display: flex;
-    align-items: flex-end;
-    gap: 70px;
-}
-
-.radio-flx:last-of-type {
-    gap: 410px;
-}
-
 .flex {
     display: flex;
     gap: 8px;
@@ -221,16 +211,23 @@ strong {
 }
 
 
-
-.black-clr {
-    color: rgba(0, 0, 0, 1);
+.radio-label {
+    font-weight: 400;
     font-size: 14px;
     max-width: 654px;
-    padding: 16px 0 22px;
+
+
 }
 
 
 
+.radio-flx {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 10px;
+}
 
 
 .bg-blue {
