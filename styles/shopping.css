@@ -254,18 +254,12 @@ aside {
 }
 
 .yellow-check {
-    background: rgba(255, 184, 0, 1);
-    color: rgba(35, 44, 101, 1);
+
     width: 386px;
     height: 50px;
-    text-align: center;
-    font-weight: 600;
+
     font-size: 14px;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+
 }
 
 .gray-check {
@@ -306,4 +300,9 @@ aside {
 
 .zip {
     padding: 25px 0 0;
+}
+
+.hidden-minicart>.yellow-check {
+    width: 250px;
+    height: 37px;
 }

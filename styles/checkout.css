@@ -33,7 +33,7 @@ aside {
     background-color: var(--white);
     border-radius: 50px;
     cursor: pointer;
-    vertical-align: bottom;
+    padding: 15px 40px 20px;
 
 }
 

@@ -91,6 +91,9 @@ p {
 
 }
 
+.hidden-table>.flx-start {
+    gap: 4px;
+}
 
 .stock-card-img {
     visibility: visible;
