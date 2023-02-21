@@ -37,6 +37,20 @@ strong {
     align-items: center;
 }
 
+.flex-gap {
+    display: flex;
+
+    gap: 15px;
+
+
+}
+
+.flx-column {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
 .shipping {
     width: 924px;
     padding: 15px 0 14px;
@@ -242,17 +256,13 @@ strong {
     margin: 21px 0 87px;
 }
 
-.table-p p {
+.order-summary-p {
     max-width: 307px;
+    font-weight: 400;
+    font-size: 14px;
 }
 
-.cart-info {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
 
-    row-gap: 25px;
-}
 
 .select-img::after {
 
