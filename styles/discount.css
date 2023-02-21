@@ -1,9 +1,12 @@
 aside {
     height: 1335px;
     width: 446px;
+    padding-bottom: 25px;
 
 
 }
+
+
 
 label {
     font-weight: 600;
@@ -26,6 +29,8 @@ select {
 
 }
 
+
+
 .select {
     position: relative;
 }
@@ -44,11 +49,12 @@ select {
 
 }
 
-.bttn-blue {
+.discount-form input[type=submit] {
     color: var(--blue);
     border: 2px solid var(--blue);
     background: rgba(245, 247, 255, 1);
-
+    width: 386px;
+    height: 50px;
     cursor: pointer;
     margin: 19px 0 29px;
 }
@@ -68,35 +74,38 @@ select {
 
 
 .radio {
-    width: 21px;
-    height: 21px;
-
+    width: 13px;
+    height: 13px;
+    margin: 0;
 }
 
 
+
+.flex {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
 
 .black-clr {
     color: var(--black);
+
+
+
+}
+
+.shipping-p {
     max-width: 356px;
 }
 
-.flx {
 
-    display: flex;
 
-}
 
-.radios:first-of-type {
-    margin-top: 17px;
-}
 
-.radios:last-of-type {
-    margin: 5px 0 5px;
-}
 
 .margn-top {
     margin-top: 5px;
-    gap: 8px;
+
 }
 
 
@@ -110,13 +119,6 @@ select {
 
 }
 
-
-
-
-
-
-.radio:last-of-type {
-    width: 17px;
-    height: 17px;
-
+.zip {
+    padding-top: 25px;
 }

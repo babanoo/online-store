@@ -18,6 +18,26 @@ h4 {
     font-size: 18px;
 }
 
+aside {
+    display: block;
+    background: rgba(245, 247, 255, 1);
+    margin: 0px 0px 67px 35px;
+    padding: 17px 34px 25px 32px;
+    height: 718px;
+    width: 446px;
+
+
+
+
+
+
+
+}
+
+.padding {
+    padding-bottom: 29px;
+}
+
 .table-p {
     font-size: 14px;
     max-width: 271px;
@@ -72,10 +92,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 
 
-.about-us {
 
-    overflow: hidden;
-}
 
 .flx-start {
     display: flex;
@@ -215,21 +232,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 
 
-aside {
-    display: block;
-    background: rgba(245, 247, 255, 1);
-    margin: 0px 0px 67px 35px;
-    padding: 17px 34px 25px 32px;
-    height: 718px;
-    width: 446px;
 
-
-
-
-
-
-
-}
 
 .overflow-hide {
     overflow: hidden;
@@ -282,10 +285,13 @@ aside {
     display: flex;
     flex-direction: column;
     gap: 14px;
-    padding-bottom: px;
+
+
 
 
 }
+
+
 
 .free-months {
     font-weight: 400;
@@ -298,9 +304,7 @@ aside {
     font-size: 12px;
 }
 
-.zip {
-    padding: 25px 0 0;
-}
+
 
 .hidden-minicart>.yellow-check {
     width: 250px;

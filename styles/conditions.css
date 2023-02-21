@@ -2,7 +2,11 @@ h2 {
     font-weight: 600;
     font-size: 24px;
     max-width: 866px;
-    padding: 0 0 35px;
+    padding-bottom: 26px;
+}
+
+.top-heading {
+    padding-bottom: 26px;
 }
 
 .general-terms {
@@ -26,7 +30,8 @@ h2 {
 
 aside {
     background-color: rgba(245, 247, 255, 1);
-    float: right;
+    width: 327px;
+
     padding: 25px 24px;
 
 

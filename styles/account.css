@@ -13,20 +13,31 @@
     padding: 20px 0;
 }
 
-.account-font {
+.account-list {
     font-weight: 300;
     font-size: 14px;
+    list-style: disc;
+
+}
+
+.account-ul {
+    margin-left: 20px;
 }
 
 .sign-in {
-    margin-top: 30px
+    margin-top: 30px;
+
+
 }
+
+
 
 .creat-bttn {
 
     width: 208px;
-    height: 50px;
-    margin-top: 35px;
+
+    margin-top: 20px;
+    padding: 15px 25px 25px;
 }
 
 .blue-clr {

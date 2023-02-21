@@ -5,9 +5,11 @@ h1 {
 h2 {
     font-weight: 600;
     font-size: 18px;
-    position: relative;
+
 
 }
+
+
 
 textarea {
 
@@ -16,8 +18,15 @@ textarea {
     width: 925px;
     height: 236px;
     padding: 10px 0 0 17px;
-    transform: translateY(-50px);
+    box-sizing: border-box;
     display: block;
+    resize: none;
+    margin-bottom: 16px;
+
+
+
+
+
 
 
 
@@ -29,7 +38,16 @@ textarea {
 }
 
 
+aside {
+    width: 481px;
 
+    background: rgba(245, 247, 255, 1);
+    padding: 30px 0px 74px 35px;
+
+
+
+
+}
 
 
 
@@ -39,6 +57,19 @@ textarea {
     color: rgba(162, 166, 176, 1);
     font-weight: 300px;
     font-size: 14px;
+}
+
+.flx-start {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    justify-content: flex-start;
+
+}
+
+
+.contact-us-p {
+    padding-bottom: 21px;
 }
 
 .label {
@@ -56,23 +87,15 @@ textarea {
 
 
 .form-bttn {
-    cursor: pointer;
-    background-color: var(--blue);
-    color: var(--white);
-    width: 150px;
-    height: 50px;
-    text-align: center;
-    border-radius: 50px;
-    border: none;
-    font-weight: 600;
-    font-size: 14px;
+
     margin-bottom: 123px;
 
+
+
+
 }
 
-.submit-bttn {
-    transform: translateY(-55px);
-}
+
 
 
 
@@ -98,18 +121,6 @@ textarea {
     column-gap: 30px;
 }
 
-.address::before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 90px;
-    background-image: url(./images/localisation-2.png);
-    background-repeat: no-repeat;
-    background-position: left top;
-    left: 0;
-    top: 0;
-    transform: translateX(-40px);
-}
 
 
 
@@ -119,46 +130,10 @@ textarea {
     padding-bottom: 10px;
 }
 
-.phone::before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 90px;
-    background-image: url(./images/phone.png);
-    background-repeat: no-repeat;
-    background-position: left top;
-    left: 0;
-    top: 0;
-    transform: translateX(-40px);
-}
 
-.aside-time::before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 90px;
-    background-image: url(./images/time.png);
-    background-repeat: no-repeat;
-    background-position: left top;
-    left: 0;
-    top: 0;
-    transform: translateX(-40px);
 
-}
 
-.email::before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 90px;
-    background-image: url(./images/email.png);
-    background-repeat: no-repeat;
-    background-position: left top;
-    left: 0;
-    top: 0;
-    transform: translateX(-40px);
 
-}
 
 
 .terms-p>p {
@@ -177,28 +152,10 @@ textarea {
     color: red;
 }
 
-textarea {
-    resize: none;
-    border-radius: 4px;
-    border: 1px solid #A2A6B0;
-    width: 925px;
-    height: 236px;
-    padding: 10px 0 0 17px;
-    margin: 49px 0 16px;
-}
 
-::placeholder {
-    color: rgba(162, 166, 176, 1);
-    font-weight: 300px;
-    font-size: 14px;
-}
 
-aside {
-    float: right;
-    background: rgba(245, 247, 255, 1);
-    padding: 30px 88px 77px 76px;
 
-}
+
 
 .aside-p {
     font-size: 13px;

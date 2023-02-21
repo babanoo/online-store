@@ -1,4 +1,5 @@
-aside {
+aside,
+.Compare-Products {
     width: 234px;
     margin: 0;
 
@@ -11,6 +12,10 @@ main {
 
 }
 
+p {
+    font-weight: 400;
+    font-size: 13px;
+}
 
 select {
     -webkit-appearance: menulist;
@@ -31,24 +36,17 @@ select {
 }
 
 
+
 .header_main .flx {
     gap: 56px;
 }
 
-p {
-    font-weight: 400;
-    font-size: 13px;
-}
+
 
 .select-width {
     width: 100px;
 }
 
-
-
-.about-us {
-    padding: 10px 0 0 0;
-}
 
 
 
@@ -91,7 +89,7 @@ p {
 
 }
 
-.hidden-table>.flx-start {
+.hidden-border>.flx-start {
     gap: 4px;
 }
 
@@ -231,8 +229,10 @@ p {
 
 
 
-
-
+.breadcrumbs {
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
 
 
 .select {
@@ -276,9 +276,10 @@ p {
 }
 
 .slide {
-
     display: flex;
-    gap: 90px;
+    justify-content: space-around;
+    width: 400px;
+
 }
 
 .gray {
@@ -292,7 +293,8 @@ p {
 }
 
 .slide-padd {
-    padding-right: 5px;
+
+    margin-left: 20px;
 }
 
 .item-p {
@@ -371,6 +373,7 @@ input:first-of-type[type="radio"] {
     background-color: black;
     border-radius: 50%;
     padding: 6px;
+    margin: 0;
 }
 
 input:last-of-type[type="radio"] {
@@ -387,6 +390,7 @@ input:last-of-type[type="radio"] {
 
     border-radius: 50%;
     padding: 6px;
+    margin: 0;
 }
 
 
@@ -427,15 +431,15 @@ input[type="radio"]:checked {
 .slide-flx {
     display: flex;
     justify-content: center;
-    gap: 15px;
-    padding: 0px 0 50px;
-    margin-top: 33px;
+    gap: 20px;
+    margin: 30px 0 67px;
+
+
 
 }
 
 .slide-buttn {
     align-self: center;
-
 }
 
 .bottom-text>p {
@@ -469,6 +473,15 @@ input[type="radio"]:checked {
 .home-text {
     color: rgba(140, 140, 140, 0.15);
     padding-top: 25px;
+
+}
+
+.number-two {
+    background: rgba(245, 247, 255);
+    color: black;
+    border: none;
+    width: 42px;
+    height: 40px;
 
 }
 

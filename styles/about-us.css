@@ -1,9 +1,3 @@
-h1 {
-    font-weight: 600;
-    font-size: 32px;
-    padding-top: 19px;
-}
-
 h2 {
 
     font-size: 44px;
@@ -15,6 +9,11 @@ h2 {
 
 }
 
+.about-us {
+    padding-bottom: 21px;
+}
+
+
 .blue-color {
     color: rgba(1, 86, 255, 1);
 }
@@ -25,9 +24,6 @@ h2 {
 
 }
 
-.about-us {
-    padding: 21px 0;
-}
 
 .about-us-prgrph {
     max-width: 436px;

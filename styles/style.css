@@ -40,9 +40,7 @@ nav {
     padding: 8px 0;
 }
 
-a {
-    cursor: pointer;
-}
+
 
 form {
     margin-top: 71px 0 47px;
@@ -55,6 +53,7 @@ input {
     background-color: rgba(0, 0, 0, 1);
     color: var(--white);
     padding: 20px 293px 20px 10px;
+    margin-right: 23px;
 
 
 }
@@ -68,6 +67,13 @@ input {
 
 button {
     cursor: pointer;
+    border: none;
+    background-color: var(--white);
+}
+
+address {
+    font-size: 13px;
+    font-style: normal;
 }
 
 ul {
@@ -76,18 +82,21 @@ ul {
 
 a {
     text-decoration: none;
+    cursor: pointer;
 }
+
+
 
 h1 {
-    font-weight: 600;
-    font-size: 22px;
-}
-
-h2 {
     font-size: 22px;
     font-weight: 700;
     max-width: 100px;
     text-align: center;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 22px;
 }
 
 h3 {
@@ -126,6 +135,10 @@ strong {
 
 }
 
+footer {
+    padding-top: 47px;
+}
+
 .container {
     max-width: 1400px;
     margin: 0 auto;
@@ -150,6 +163,12 @@ strong {
 }
 
 
+.top-heading {
+    font-weight: 600;
+    font-size: 32px;
+    max-width: 1398px;
+    text-align: left;
+}
 
 .bold-font {
     font-weight: 700;
@@ -161,9 +180,7 @@ strong {
     color: var(--white);
 }
 
-.dis-block {
-    display: block;
-}
+
 
 .header_top {
     padding: 15.28px 0 13.28px;
@@ -227,9 +244,7 @@ strong {
 
 }
 
-address {
-    font-size: 13px;
-}
+
 
 .hidden-address {
     border-top: 1px solid rgba(202, 205, 216, 1);
@@ -460,12 +475,12 @@ address {
 
 
 
-.checked {
+.bascket {
     position: relative;
 
 }
 
-.checked:hover>.hidden-minicart {
+.bascket:hover>.hidden-minicart {
     display: block;
 
 }
@@ -505,7 +520,7 @@ address {
 
 }
 
-.hidden-table {
+.hidden-border {
     border-top: 1px solid rgba(202, 205, 216, 1);
     border-bottom: 1px solid rgba(202, 205, 216, 1);
     padding: 17px 15px 23px 24px;
@@ -513,14 +528,15 @@ address {
 
 }
 
-.hidden-table:first-of-type {
+.hidden-border:first-of-type {
     margin-top: 25px;
 }
 
-.hidden-icon {
+.buttns {
     display: flex;
     flex-direction: column;
     gap: 4px;
+    align-items: flex-end;
 }
 
 .hidden-one {
@@ -861,7 +877,7 @@ address {
 
 .hidden-btn {
     visibility: hidden;
-
+    background-color: var(--white);
     border: 2px solid var(--blue);
     padding: 10px 15px;
     border-radius: 30px;
@@ -945,7 +961,7 @@ address {
     background-color: rgba(245, 247, 255, 1);
     height: 70px;
     width: 1398px;
-    margin: 18px 0 21px;
+    margin: 18px 0 14px;
 
 
 
@@ -992,7 +1008,7 @@ address {
 }
 
 .series-list {
-    padding: 35px 0 23px;
+    margin: 36px 0 23px;
 }
 
 
@@ -1074,25 +1090,34 @@ address {
 
 .Msi_series,
 .Descktop_series,
-.msi_laptop_series,
+.msi_laptop_series {
+    height: 400px;
+    margin-bottom: 31px;
+}
+
 .custom_build_series {
     height: 346px;
 
-
 }
-
 
 .Msi_series {
     padding-top: 31px;
 }
 
+
+
+
+
+
+
 .brands {
     display: flex;
     align-items: flex-end;
-
+    height: 150px;
+    margin-top: 66px;
     padding-bottom: 50px;
     padding-top: 10px;
-    margin-top: 66px;
+
 
 }
 
@@ -1178,7 +1203,7 @@ address {
 .client-reaction::before {
     position: absolute;
     content: "";
-    background-image: url(./images/quote.png);
+    background-image: url(../images/quote.png);
     left: 0;
     top: 10%;
     width: 100%;
@@ -1277,8 +1302,8 @@ address {
     padding-bottom: 44px;
 }
 
-footer {
-    padding-top: 47px;
+.breadcrumbs {
+    padding: 20px 0 0;
 }
 
 .footer-sign-up {
@@ -1293,7 +1318,8 @@ footer {
 
 
 
-.subscribe-btn {
+input[type=submit],
+.creat-bttn {
     background-color: var(--blue);
     color: var(--white);
     width: 151px;
@@ -1303,8 +1329,18 @@ footer {
     cursor: pointer;
     font-weight: 600;
     font-size: 14px;
-    margin-left: 23px;
+
+    border: none;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
 }
+
+.breadcrumbs {
+    padding: 21px 0 19px;
+}
+
+
 
 .footer-navigation {
     display: flex;
@@ -1318,10 +1354,11 @@ footer {
     font-size: 13px;
 }
 
-.footer-address {
+.footer-address-list {
     max-width: 300px;
     font-size: 13px;
     color: rgba(255, 255, 255, 1);
+    padding-bottom: 5px;
 }
 
 .blue-colr {
@@ -1335,7 +1372,7 @@ footer {
 
 }
 
-.footer-rights {
+.footer-copyright {
     font-weight: 500;
     font-size: 12px;
     color: rgba(255, 255, 255, 0.6);
