@@ -5,6 +5,16 @@ h2 {
     padding-bottom: 26px;
 }
 
+aside {
+    background-color: rgba(245, 247, 255, 1);
+    width: 327px;
+
+    padding: 25px 24px;
+
+
+
+}
+
 .top-heading {
     padding-bottom: 26px;
 }
@@ -28,15 +38,7 @@ h2 {
 
 }
 
-aside {
-    background-color: rgba(245, 247, 255, 1);
-    width: 327px;
 
-    padding: 25px 24px;
-
-
-
-}
 
 .aside-p {
     font-weight: 600;

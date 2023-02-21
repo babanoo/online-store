@@ -162,6 +162,97 @@ footer {
 
 }
 
+.FLx {
+    display: flex;
+    gap: 25px;
+
+
+
+}
+
+.flx {
+    display: flex;
+    gap: 56px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.flx-cntr {
+
+    display: flex;
+
+
+    justify-content: center;
+    gap: 14px;
+    padding: 21px 0 36px;
+
+
+
+
+}
+
+.flx-col {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    padding-bottom: 31px;
+    color: var(--white);
+    gap: 90px;
+    height: 350px;
+    width: 232px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+.flx-wrpp {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 10px;
+    padding-top: 21px;
+
+
+}
+
+
+.flx-col>a {
+    color: var(--white);
+    font-weight: 400;
+    font-size: 13px;
+}
+
+
+
+.align-slf {
+    align-self: start;
+}
+
+
+
 
 .top-heading {
     font-weight: 600;
@@ -323,13 +414,6 @@ footer {
 
 }
 
-.FLx {
-    display: flex;
-    gap: 25px;
-
-
-
-}
 
 .nav-link {
     color: var(--black);
@@ -362,13 +446,8 @@ footer {
 
 
 
-.flx {
-    display: flex;
-    gap: 56px;
-    align-items: center;
-    font-size: 14px;
-    font-weight: 600;
-}
+
+
 
 .main-list {
 
@@ -865,12 +944,6 @@ footer {
 
 
 
-.align-slf {
-    align-self: start;
-}
-
-
-
 
 
 
@@ -943,19 +1016,6 @@ footer {
 
 }
 
-.flx-cntr {
-
-    display: flex;
-
-
-    justify-content: center;
-    gap: 14px;
-    padding: 21px 0 36px;
-
-
-
-
-}
 
 .own_for_free {
     background-color: rgba(245, 247, 255, 1);
@@ -1014,50 +1074,6 @@ footer {
 
 
 
-.flx-col {
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
-    justify-content: flex-end;
-    text-align: center;
-    padding-bottom: 31px;
-    color: var(--white);
-    gap: 90px;
-    height: 350px;
-    width: 232px;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-
-
-.flx-col>a {
-    color: var(--white);
-    font-weight: 400;
-    font-size: 13px;
-}
 
 .bg-img-one {
     background-image: url(../images/custome-builds-1.png);
@@ -1136,14 +1152,6 @@ footer {
 }
 
 
-.flx-wrpp {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px 10px;
-    padding-top: 21px;
-
-
-}
 
 .card-flex-col {
     display: flex;
@@ -1302,9 +1310,7 @@ footer {
     padding-bottom: 44px;
 }
 
-.breadcrumbs {
-    padding: 20px 0 0;
-}
+
 
 .footer-sign-up {
     padding-bottom: 45px;

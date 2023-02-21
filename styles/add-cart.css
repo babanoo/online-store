@@ -275,7 +275,7 @@ select {
 
 }
 
-.slide {
+.slide-back {
     display: flex;
     justify-content: space-around;
     width: 400px;

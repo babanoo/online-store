@@ -20,6 +20,17 @@ aside {
 
 }
 
+strong {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.flex {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
 .flx {
     display: flex;
     gap: 20px;
@@ -205,16 +216,7 @@ aside {
     padding-bottom: 32px;
 }
 
-strong {
-    font-weight: 600;
-    font-size: 14px;
-}
 
-.flex {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-}
 
 
 .radio-label {

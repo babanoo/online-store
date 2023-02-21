@@ -1,14 +1,3 @@
-.n-a {
-    margin-top: 23px;
-    font-weight: 400;
-    font-size: 14px;
-
-
-
-
-
-}
-
 .grid {
 
     display: grid;
@@ -29,6 +18,19 @@
 
 
 }
+
+.n-a {
+    margin-top: 23px;
+    font-weight: 400;
+    font-size: 14px;
+
+
+
+
+
+}
+
+
 
 .Featured {
     background: rgba(245, 247, 255, 1);

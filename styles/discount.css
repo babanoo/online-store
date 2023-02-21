@@ -29,7 +29,11 @@ select {
 
 }
 
-
+.flex {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
 
 .select {
     position: relative;
@@ -81,11 +85,7 @@ select {
 
 
 
-.flex {
-    display: flex;
-    gap: 5px;
-    align-items: center;
-}
+
 
 .black-clr {
     color: var(--black);

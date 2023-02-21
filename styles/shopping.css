@@ -34,19 +34,6 @@ aside {
 
 }
 
-.padding {
-    padding-bottom: 29px;
-}
-
-.table-p {
-    font-size: 14px;
-    max-width: 271px;
-}
-
-.card-price {
-    font-weight: 600;
-    font-size: 16px;
-}
 
 
 
@@ -75,13 +62,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 }
 
-.cart-info {
-    display: flex;
-    align-items: flex-start;
-    gap: 29px;
 
-
-}
 
 .col-flex {
     display: flex;
@@ -98,6 +79,28 @@ input[type=number]::-webkit-outer-spin-button {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+
+
+}
+
+.padding {
+    padding-bottom: 29px;
+}
+
+.table-p {
+    font-size: 14px;
+    max-width: 271px;
+}
+
+.card-price {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.cart-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 29px;
 
 
 }
